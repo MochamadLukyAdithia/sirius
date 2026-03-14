@@ -70,7 +70,7 @@ function renderHero() {
   return `
   <section id="hero" class="relative min-h-screen flex items-center overflow-hidden pt-20 pb-12 px-6 md:px-12 lg:px-20">
     <!-- bg layers -->
-    <div class="absolute inset-0 hero-bg"></div>
+    <div class="absolute inset-0 hero-bg z-0 "></div>
     <div class="absolute inset-0 hero-grid opacity-5"></div>
     <div class="absolute top-1/3 right-0 w-96 h-96 bg-cyan-400/10 rounded-full blur-3xl pointer-events-none"></div>
 
